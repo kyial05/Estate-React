@@ -1,0 +1,661 @@
+.header {
+  padding-left: 136px;
+  padding-top: 15px;
+  padding-bottom: 14.2px;
+  padding-right: 146px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  line-height: 16px;
+  color: #444444;
+}
+.navigation li {
+  margin-left: 30px;
+  cursor: pointer;
+}
+.navigation li:hover {
+  color: #747373;
+}
+/* main */
+.main {
+  width: 100%;
+  height: 770px;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/bg.svg) no-repeat;
+  background-size: cover;
+}
+.cover {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  background: url(../img/Rectangle.svg);
+  background-size: cover;
+  padding-top: 250px;
+}
+.mainText {
+  width: 525px;
+  align-self: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  color: #45525b;
+}
+.arrowDown {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #3a4443;
+  position: relative;
+  margin-top: 149px;
+  align-self: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #3a4443;
+  border-radius: 50%;
+}
+.arrowDown:hover {
+  color: #ff8a63;
+  border: 2px solid #ff8a63;
+}
+/* person info */
+.ourGoal {
+  background: #fafafc;
+  padding-top: 100px;
+  padding-left: 136px;
+  padding-bottom: 100px;
+  padding-right: 136px;
+}
+.wrapperOurG {
+  display: flex;
+}
+.orangeTx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+  margin-bottom: 0;
+}
+.ourG {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.oGMainTx {
+  display: flex;
+  width: 491px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: #45525b;
+  margin-right: 101px;
+  margin-top: 0;
+}
+.ogSimpleTx {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 19px;
+}
+.person {
+  display: flex;
+}
+.ogName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #45525b;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.ogPost {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6f7278;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 20px;
+}
+/* chose the place */
+.howToChose {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-left: 314px;
+  padding-right: 314px;
+  padding-bottom: 100px;
+}
+.chose {
+  display: flex;
+  margin-top: 30px;
+  align-self: center;
+}
+.place {
+  margin-right: 53px;
+}
+.topPart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.choseOrangeTx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+  margin-bottom: 0;
+}
+.choseMainTx {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #45525b;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.choseInfoTx {
+  align-self: center;
+  width: 561px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6f7278;
+  margin-top: 0;
+}
+.location {
+  cursor: pointer;
+  width: 300px;
+  margin-top: 20px;
+  padding-top: 21px;
+  padding-left: 21px;
+  padding-bottom: 21px;
+  transition: 0.2s;
+}
+.location:hover {
+  background: #fafafc;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+.location img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.location p {
+  margin-top: 9px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #45525b;
+}
+.location span {
+  display: flex;
+  height: 40px;
+  width: 196px;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6f7278;
+}
+.bigPicOfHouse {
+  width: 100%;
+}
+/* what we have cards*/
+.whatWeHave {
+  display: flex;
+  flex-direction: column;
+  padding-left: 136px;
+  padding-right: 136px;
+  background: #fafafc;
+}
+.whorangeTx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+  margin-top: 88px;
+  margin-bottom: 0;
+}
+.whMainTx {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #45525b;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.whInfoTx {
+  width: 574px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6f7278;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.whRenderCards {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 16px;
+  margin-bottom: 0;
+}
+.whCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding-bottom: 23px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+.whCardSmallText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6f7278;
+  margin-top: 20px;
+}
+.whCarBigText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #45525b;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.whIcons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.bedIcon span,
+.bathIcon span,
+.doorIcon span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #45525b;
+  margin-left: 9px;
+  margin-right: 31px;
+}
+.whShowAll {
+  width: 160px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  align-self: center;
+  color: #45525b;
+  margin-top: 26px;
+  margin-bottom: 101px;
+  text-decoration: none;
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat 95% center;
+}
+.whShowAll:hover {
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat right center;
+}
+/* meet our team */
+.meetOurTeam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 136px;
+  padding-right: 136px;
+  background: white;
+}
+.meatOurTeamItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1168px;
+}
+.motLeftPart {
+  margin-right: 64px;
+}
+.motOrangeTx {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+}
+.motBigTx {
+  width: 309px;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #45525b;
+  margin-bottom: 0;
+}
+.motSmallTx {
+  width: 368px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #6f7278;
+  margin-top: 11px;
+}
+.motArrowTx {
+  width: 160px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  align-self: center;
+  color: #45525b;
+  margin-top: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat 95% center;
+}
+.motArrowTx:hover {
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat right center;
+}
+.motRightPart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.motPerson {
+  display: flex;
+  width: 255px;
+  margin-bottom: 16px;
+}
+/* writing */
+.writingFromEstate {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 136px;
+  padding-right: 136px;
+  padding-bottom: 100px;
+  background: rgba(250, 250, 252, 1);
+}
+.writingOrangeTx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.writingBigTx {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #45525b;
+  margin-top: -3px;
+  margin-bottom: 23px;
+}
+.writingCards {
+  display: flex;
+  grid-column-gap: 20px;
+  flex-wrap: wrap;
+}
+.writingCard {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.writingCardOrangeTx {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+  margin-top: 30px;
+  margin-left: 29px;
+  margin-bottom: 8px;
+}
+.writingInfoTx {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #45525b;
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 308px;
+}
+.writingDate {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #6f7278;
+  margin-left: 30px;
+  margin-top: 0;
+}
+.writingArrowTx {
+  width: 130px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  align-self: center;
+  color: #45525b;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat 95% center;
+}
+.writingArrowTx:hover {
+  transition: 0.2s;
+  background: url(../img/Path.svg) no-repeat right center;
+}
+/* get in touch */
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  background: rgba(69, 82, 91, 1);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+.getInTouchQuestion {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fafafc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.getInTouchMainTx {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 11px;
+}
+.getInTouchInfoTx {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fafafc;
+  width: 574px;
+  margin-top: 0;
+}
+.getInTouchButtons {
+  display: flex;
+  grid-column-gap: 20px;
+}
+.getInTouchButtons button {
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #45525b;
+}
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 136px;
+  background: rgba(41, 44, 50, 1);
+}
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footerLogo {
+  align-self: center;
+  margin-bottom: 75px;
+}
+.footerNav {
+  display: flex;
+  justify-content: space-around;
+}
+.footerOrangeTx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff8a63;
+}
+.footerLi {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  list-style: none;
+  padding: 0;
+}
+.footerLi li {
+  margin-bottom: 9px;
+}
+.footerFirst {
+  margin-right: 132px;
+}
+.footerSecond {
+  margin-right: 150px;
+}
+.footerThird {
+  margin-right: 139px;
+}
+.footerFourth {
+  display: flex;
+  flex-direction: column;
+}
+.footerFourth span {
+  width: 450px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footerFourth input {
+  width: 458px;
+  height: 53px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 34px;
+}
+.footerFourth button {
+  width: 73px;
+  height: 39px;
+  background: #3a4443;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: -48px;
+  margin-left: 415px;
+  cursor: pointer;
+}
+.footerUnder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+.footerUnder p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.footerIcons a img{
+  margin-left: 20px;
+}
